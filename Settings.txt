@@ -1,0 +1,6 @@
+cd C:\Users\Lenovo\Documents\C++
+echo off
+color a
+title Anatrax C++
+cls
+Menu

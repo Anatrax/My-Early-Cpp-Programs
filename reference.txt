@@ -1,0 +1,68 @@
+#include <iostream>
+#include <vector>
+#include <string>
+#include <fstream>
+
+using namespace std;
+
+int main(int argc, char *argv[]){ //argv[n] = nth argument, int argc = total arguments???
+	cout<<"Hello World"<<endl;
+
+	//const double PI = 3.1415926535;
+	//char myGrade = 'A';
+	//bool isHappy = true;
+	int myAge = 17;
+	float favNum = 3.1415926;
+	//double otherfavNum = 1.6180339887;
+	int largestInt = 2147483648;
+	int five = 5;
+	int ternaryOperator = (5>2) ? 5 : 2; //variable = (condition)? true : false
+	//char myName[2][5] = {{'s', 't', 'e', 'v', 'e'},{'j', 'a', 'm', 'e', 's'}};
+	//int nextArray[5] = {0, 1, 2, 3, 4};
+
+	// Other data types:
+	// short int : At least 16 bits
+	// long int : At least 32 bits
+	// long long int : At least 64 bits
+	// unsigned int : Same size as signed version
+	// long double : Not less then double
+
+	cout << "Ternary Operator (5>2) ? 5 : 2  = " << ternaryOperator << endl;
+
+	cout << "Size of int " << sizeof(myAge)
+		<< endl;
+	cout << "Favorite Number" << favNum << endl;
+	cout << "Largest int plus one" << largestInt << endl;
+
+	cout << "5 + 2 = " << 5 + 2 << endl;
+	cout << "5 - 2 = " << 5 - 2 << endl;
+	cout << "5 * 2 = " << 5 * 2 << endl;
+	cout << "No casting: 5 / 2 = " << 5 / 2 << endl;
+	cout << "Casting: 5 / 2 = " << (float) 5 / 2 << endl;
+	cout << "5 % 2 = " << 5 % 2 << endl;
+
+	cout << "17++ = " << myAge++ << endl;
+	cout << "++17 = " << ++myAge << endl;
+	cout << "19-- = " << myAge-- << endl;
+	cout << "--19 = " << --myAge << endl;
+
+	//number of elements in an int array = sizeof(array)/sizeof(int)
+	// ampersand(&) gives address where a variable is stored (&a = location of variable a)
+	//int *address; // pointer variable pointing to integer
+	//int *address = &a;
+	// printing out *address would return the value stored at the variable location stored in *address (&a)
+	//char string[] = "This is a string of characters.";
+	//strcpy(stringToHoldNewString, stringBeingCopied, optional'n'NumberOfCharactersToCopy); 
+	//strcat(firstString, plusAnotherString); //concatonates(combines) two strings, firstString now contains merged string
+	//char first = (char *) strchr(string, 'm'); //returns location of first 'm' in string
+	//char last = (char *) strrchr(string, 'm'); //returns location of last 'm' in string
+	//char position = (char *) strstr(string, search); //returns location of search(char search[] = "word";) in string
+	//srtlwr(string); //makes string lowercase
+	//strupr(string); //makes string uppercase
+	//strcmp(stringOne, stringTwo); //compares size of two strings
+
+	five+= 5; //same as: five = five+ 5;
+	cout << "(five += 5)= " << five << endl;
+
+	return 0;
+}

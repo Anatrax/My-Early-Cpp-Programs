@@ -1,0 +1,8 @@
+new- create new c++ program, add title and description to programList.txt
+HideAndSeek- hides a file in a picture
+Input- outputs user input [uses getInput()]
+Menu- read from programList.txt, run program selected by user
+VirtualTyper- types out input
+Quine- A program that outputs its own source code
+	- can output contents of different file if specified
+codeNow- goes to c++ folder and runs custom settings, executable in home folder (i.e. C:\Users\MyUser)

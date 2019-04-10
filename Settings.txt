@@ -1,4 +1,4 @@
-cd C:\Users\Lenovo\Documents\C++
+cd C:\Users\MyUser\Documents\My-Early-Cpp-Programs | echo "Change the path in Settings.txt to the folder where this repo is cloned."
 echo off
 color a
 title Anatrax C++

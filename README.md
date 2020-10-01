@@ -2,7 +2,7 @@
 A collection of programs I created to learn C++
 
 ## Setup
-1. Compile the programs using some C++ compiler. I used [Borland's Turbo C++ compiler](http://forms.embarcadero.com/BCC32CompilerDownload), but I would recommend using something like the [mingw-w64 win-builds](http://win-builds.org/doku.php) to compile the C++ files.
+1. Compile the programs using [Borland's Turbo C++ compiler](http://forms.embarcadero.com/BCC32CompilerDownload).
 
 - ### Turbo C++
   Make sure to the compiler executables are added to the PATH:
@@ -18,15 +18,6 @@ A collection of programs I created to learn C++
   ```
   C:\Users\MyUser\Documents\My-Early-Cpp-Programs>bcc32 myprogram.cpp
   ```
-
-- ### Mingw-w64
-  Using Mingw-w64, the programs are compiled as follows:
-  ```
-  C:\Users\MyUser\Documents\My-Early-Cpp-Programs>g++ myprogram.cpp -o myprogram.exe
-  ```
-
-- ### Other
-  Check the documentation for your C++ compiler.
 
 2. Change the path in "Settings.txt" to the folder where this repo is cloned.
 
